@@ -16,7 +16,6 @@ repositories {
 
 dependencies {
     implementation(libs.aot)
-    implementation(libs.jetbrains.annotations)
 
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
@@ -45,12 +44,12 @@ extraJavaModuleInfo {
 //        requires("aot.bytecode")
 //        requires("bits")
 //    }
-
+//
 //    module("com.github.demidko:aot-bytecode", "aot.bytecode"){
 ////        exports("com.github.demidko.aot")
 ////        opens("com.github.demidko.aot")
 //    }
-
+//
 //    module("com.github.demidko:bits", "bits"){
 //    }
 }
