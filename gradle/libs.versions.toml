@@ -1,0 +1,9 @@
+[versions]
+aot = "2025.01.10"
+jetbrains-annotations = "26.0.2"
+
+[libraries]
+aot = { group = "com.github.demidko", name = "aot", version.ref = "aot" }
+jetbrains-annotations = { group = "org.jetbrains", name = "annotations", version.ref = "jetbrains-annotations" }
+
+[plugins]
